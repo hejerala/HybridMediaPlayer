@@ -1,0 +1,110 @@
+/**
+ * CSS Styles for VFS Demo App
+ *
+ * @Copyright 2014-2015, Vancouver Film School
+ * @author: Hector Ramirez
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+body {
+  background-color:black;
+}
+
+body {
+  margin: 0;
+  padding: 0.5%;
+  border:none;
+  color: #000;
+  background-color: white;
+  font-family: Helvetica, Arial;
+  position:  relative;
+  width: 100%;
+}
+
+/* Styles for illustrating the example */
+a {
+  color:#FFF;
+  text-decoration:underline;
+}
+
+button {
+  padding: .5em 1em;
+  font-weight:  700;
+  font-size: 24px;
+}
+
+/* Styles for the experiment GUI */
+
+span.glyphicon {
+    font-size: 2em;
+}
+
+.content {
+  background-color: white;
+}
+
+.container {
+  background-color: #DDD;
+  border: 2px solid #000;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+.flex-item {
+  margin: 0.5em;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#app-frame {
+  /*width: 95%;*/
+  /*margin: 0 auto;*/
+  /*margin: auto auto;*/
+}
+
+#app-area {
+  padding: 1em;
+  width:  100%;
+}
+
+/*#player-area {
+  width: 60%;
+  margin: 0 0 0 auto;
+}*/
+
+.ui-slider-horizontal {
+    height: 8px;
+    width: 200px;
+}
+
+.ui-slider-range {
+    background: #729fcf;
+}
+
+.ui-slider .ui-slider-handle {
+    border-color: #729fcf;
+    text-align: center;
+    font-size: 0.8em;
+    height: 25px;
+    width: 25px;
+}

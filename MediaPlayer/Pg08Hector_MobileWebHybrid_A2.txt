@@ -1,0 +1,28 @@
+# *** PG08 T5 Mobile Web & Hybrid  - Mobile Hybrid Media Player ***
+---------------------------------------
+
+MediaPlayer
+
+08/06/2017
+
+## Synopsis
+---------------
+The media player lists asks and lists the songs available, the player controls allow to play, pause, fastforward & rewind, skip to next song, previous song.
+The player is wrapped inside and iOs and android app using a webview.
+Both apps use native navigation bars and navbar buttons to interact with the js and either toast or alert dialogs to interact from the js with the native code.
+
+
+## Contributors
+---------------
+Hector Ramirez
+
+
+# Download/Install
+---------------------------------------
+
+\\VFS_Depot\Programming\PG08\pg08hector\public_html\MediaPlayer
+
+# *** How to use ***
+---------------------------------------
+Download to local pc
+Run on localhost at: http://pgwm.vfs.local.dev/~pg08hector/MediaPlayer/
